@@ -1,0 +1,31 @@
+[project]
+name = "stacks-wallet"
+description = "A Stack-based Bitcoin Wallet with Social Recovery"
+authors = []
+telemetry = false
+requirements = []
+
+[contracts.wallet-core]
+path = "contracts/wallet-core.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.wallet-recovery]
+path = "contracts/wallet-recovery.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.wallet-guardian]
+path = "contracts/wallet-guardian.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.wallet-trait]
+path = "contracts/traits/wallet-trait.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.guardian-trait]
+path = "contracts/traits/guardian-trait.clar"
+clarity_version = 2
+epoch = 2.4
